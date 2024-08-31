@@ -1,6 +1,6 @@
 # struct mm_struct
 
-进程内存描述符，可以理解为虚拟地址块(vma)管理
+进程内存描述符，可以理解为每一个进程的虚拟地址块(vma)管理
 > defined in include/linunx/mm_types.h
 
 ## 成员
