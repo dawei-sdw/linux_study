@@ -20,6 +20,10 @@ struct list_head mmlist
 **mmlist**是会挂载init_mm.mmlist链表上。
 > init_mm is defined in mm/init_mm.c
 
+```
+pgd_t * pgd
+```
+页全局目录
 
 ## init_mm
 init_mm是进程0使用的内存描述符，会赋值给全局变量struct task_struct init_task的成员active_mm
