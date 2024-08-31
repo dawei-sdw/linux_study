@@ -1,8 +1,12 @@
 # Markdown syntax
 
 `
-code block
+code work
 `
+
+```
+code block
+```
 
 - 列表1
 - 列表2
